@@ -1,0 +1,37 @@
+{
+  "name": "menu-shrink",
+  "version": "1.0.0",
+  "description": "shrinking menu",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "server": "node server.js",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K-Mac-Sempreezy/menu-shrink.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/K-Mac-Sempreezy/menu-shrink/issues"
+  },
+  "homepage": "https://github.com/K-Mac-Sempreezy/menu-shrink#readme",
+  "dependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^5.3.2",
+    "prettier": "2.3.2",
+    "style-loader": "^3.2.1",
+    "webpack-dev-middleware": "^5.0.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
